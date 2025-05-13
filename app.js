@@ -42,6 +42,6 @@ app.get('/data/projects', (req, res) => {
 
 const articles = require('./data/articles.json');
 
-app.get('/api/articles', (req, res) => {
+app.get('/data/articles', (req, res) => {
     res.json(articles);
 });
